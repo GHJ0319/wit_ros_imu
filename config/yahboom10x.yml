@@ -6,7 +6,7 @@ witmotion:
     timeout_ms: 150 # ms
     restart_service_name: /restart_imu
     imu_publisher:
-      topic_name: /imu
+      topic_name: /imu/data
       frame_id: imu
       use_native_orientation: false # 311 edit: default -> true (ref: https://github.com/ElettraSciComp/witmotion_IMU_ros/issues/34)
       measurements:
